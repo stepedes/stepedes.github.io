@@ -94,7 +94,13 @@ Primary use:
   line-height: 1.2;
   text-transform: uppercase;
 }
-
+.m1-txt2 {
+  font-family: Poppins-Regular;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
 
 
 /*//////////////////////////////////////////////////////////////////
