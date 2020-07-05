@@ -1,3 +1,22 @@
+.booking-button {
+    background-color: #555555;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+    
+    
+}
+
+.booking-button:hover {
+    background-color: #f0437e;
+    
+    
+}
+
 .facepic {
       width: 200px;
       height: 200px;

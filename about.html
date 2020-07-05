@@ -99,21 +99,37 @@
                     <li><a target="_blank" href="mailto:contact@stepedes.com"><i class="fa fa-envelope"></i></a></li>
                 </ul>
             </div><!-- .social-profiles -->
+            
+            <div class="content-align-center text-center">
+            <button class="booking-button" id="booking-button" type="button" onclick='hide()'>
+                Booking
+                </button>
+                <p id="booking"></p>
+            
+            </div>
+            
             <div class="d-flex justify-content-center"> 
             <img src=favicon/favicon_full.png class="justify-content-center" style="padding-top: 10px; ">
-            <img src=favicon/2112.png class="justify-content-center" style="padding-top: 10px; ">
+            <img src=favicon/2112.png class="justify-content-center" style="padding-top: 10px; padding-right: 25px;">
             
             </div>
-            <div content-align-center class="p-t-40">
-            <a href="featured.html">
+            <div class="content-align-center p-t-40">
+            <a href="featured.html" class="text-center" style="text-align: center;">
                 Looking for someone in my photos?
                 </a>
-            
             </div>
+            
         </div>
     </div>
 </div>
 
+    
+<script>
+    function hide() {
+    document.getElementById("booking").innerHTML = "Message me anywhere!";
+    document.getElementById('booking-button').style.display = 'none';
+}
+</script>
 
 <script type='text/javascript' src='js/jquery.js'></script>
 <script type='text/javascript' src='js/custom.js'></script>
