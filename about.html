@@ -76,13 +76,13 @@
                 <img src=images/facepic.jpg style="border-radius: 50%; width: 25wh; height: 25vh">
             </div>
             <div class="d-flex justify-content-center text-center p-t-10 p-b-5">
-                <h2>My name is</h2>
+                <h2 id="name1">My name is</h2>
             </div>
             <div class="d-flex justify-content-center text-center" p-t-10 p-b-5>
-                <h1>Štěpán</h1>
+                <h1 id="name2">Štěpán</h1>
             </div>
             <div class="d-flex justify-content-center text-center" p-t-10 p-b-5 style="color: darkgray">
-                <h4>but you can call me Steven</h4>
+                <h4 id="name3" onclick="name();">but you can call me Steven</h4>
             </div>
             <div>
                 <p class="mb-4" style="text-align: justify">
@@ -135,6 +135,15 @@
     document.getElementById("booking").innerHTML = "Message me anywhere!";
     document.getElementById('booking-button').style.display = 'none';
 }
+    function name() {
+        document.getElementById("name1").innerHTML = "Call me";
+        document.getElementById("name2").innerHTML = "Steven";
+        document.getElementById("name3").innerHTML = "but my real name is Štěpán";
+        
+        
+    }
+    
+    
 </script>
 
 <script type='text/javascript' src='js/jquery.js'></script>
