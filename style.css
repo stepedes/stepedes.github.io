@@ -297,7 +297,7 @@ a:hover, a:active {
         width: 80px;
         height: 100vh;
         padding: 0 15px;
-        box-shadow: 6px 0 12px rgba(0,0,0,.05);
+        box-shadow: 6px 0 12px rgba(0,0,0,.2);
     }
 
     .site-navigation {
@@ -313,7 +313,7 @@ a:hover, a:active {
     }
 
     .site-header.no-shadow {
-        box-shadow: none;
+        /*box-shadow: none;*/
     }
 
     .site-header .site-branding.hide {
