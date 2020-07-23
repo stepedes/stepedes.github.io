@@ -1,4 +1,44 @@
+.frosted {
+    position: relative;
+    display: flex; 
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,0.5);
+}
+
+@supports (backdrop-filter: none) {
+    .frosted {
+        background: rgba(255,255,255,0.3);
+        backdrop-filter: blur(8px);
+    }
+}
+
+@supports not (backdrop-filter: none) {
+    .frosted {
+        background: white;
+        filter: blur(8px);
+    }
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700');
+
+.bgimage {
+    background: url(bgrnd.png) no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    background-position: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
 
 body {
     color: #191919;
@@ -13,15 +53,15 @@ img {
 # Links
 --------------------------------------------------------------*/
 a {
-    color: royalblue;
+    color: #f0437e;
 }
 
 a:visited {
-    color: purple;
+    color: #f0437e;
 }
 
 a:hover, a:focus, a:active {
-    color: midnightblue;
+    color: #f0437e;
 }
 
 a:focus {
@@ -117,13 +157,13 @@ a:hover, a:active {
 # Main Menu
 --------------------------------*/
 .main-menu {
-    padding: 15px 30px;
+    padding: 10px 30px;
     margin: 0;
 }
 
 .main-menu li {
     display: block;
-    padding: 12px 0;
+    padding: 6px 0;
     font-size: 30px;
     font-weight: 500;
     border-bottom: 1px solid #ebebeb;
@@ -219,12 +259,12 @@ a:hover, a:active {
     }
 
     .site-navigation {
-        position: absolute;
+        position: fixed;
         top: 78px;
         left: 0;
         z-index: 99;
         width: 100%;
-        height: 300px;
+        height: 225px;
         background: #fff;
         box-shadow: 0 12px 24px rgba(0,0,0,.09);
         visibility: hidden;
@@ -355,7 +395,7 @@ a:hover, a:active {
 }
 
 .home-page {
-    padding-top: 15px;
+    /*padding-top: 15px;*/
 }
 
 .home-page .portfolio-content {
@@ -425,7 +465,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 768px) {
     .home-page {
-        padding: 0;
+        /*padding: 0;*/
     }
 
     .home-page .portfolio-content {
