@@ -2,11 +2,15 @@
     position: relative;
     display: flex; 
     overflow: hidden;
-    border-radius: 5px;
+    
     z-index: 1;
+    background: rgba(255,255,255,0.5);
+}
+
+div.frosted {
+    border-radius: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
-    background: rgba(255,255,255,0.5);
 }
 
 @supports (backdrop-filter: none) {
@@ -175,7 +179,7 @@ a:hover, a:active {
 
 .main-menu li a {
     display: block;
-    color: #a6a6a6;
+    color: #191919;
     text-decoration: none;
     transition: all 0.35s;
 }
@@ -220,8 +224,8 @@ a:hover, a:active {
         z-index: 999;
         width: 100%;
         padding: 15px 30px;
-        background: #fff;
-        box-shadow: 0 12px 24px rgba(0,0,0,.09);
+        /*background: #fff;*/
+        box-shadow: 0 12px 24px rgba(0,0,0,.2);
     }
 
     .site-header,
@@ -265,8 +269,8 @@ a:hover, a:active {
         z-index: 99;
         width: 100%;
         height: 225px;
-        background: #fff;
-        box-shadow: 0 12px 24px rgba(0,0,0,.09);
+        /*background: #fff;*/
+        /*box-shadow: 0 12px 24px rgba(0,0,0,.09);*/
         visibility: hidden;
         opacity: 0;
         transition: all 0.35s;
@@ -297,7 +301,7 @@ a:hover, a:active {
     }
 
     .site-navigation {
-        background: #f7f7f7;
+        /*background: #f7f7f7;*/
     }
 
     .site-navigation.show {
@@ -305,7 +309,7 @@ a:hover, a:active {
     }
 
     .site-header {
-        background: #fff;
+        /*background: #fff;*/
     }
 
     .site-header.no-shadow {
@@ -411,6 +415,7 @@ a:hover, a:active {
     width: 100%;
     height: auto;
     min-height: 100%;
+    border-radius: 5px;
 }
 
 .portfolio-content .entry-content {
