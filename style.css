@@ -299,6 +299,7 @@ a:hover, a:active {
         height: 100vh;
         padding: 0 15px;
         box-shadow: 6px 0 12px rgba(0,0,0,.2);
+        justify-content: center;
     }
 
     .site-navigation {
