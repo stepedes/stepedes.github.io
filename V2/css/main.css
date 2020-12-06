@@ -1,0 +1,76 @@
+body {
+    background-color: #393D3F;
+    color: #FDFDFF;
+    font-family: Inter,sans-serif;
+    min-height: 110vh;
+}
+
+
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 56.25%;
+}
+
+iframe.ytb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+icon-pandora {
+    background: url('https://api.iconify.design/simple-icons:pandora.svg') no-repeat center center / contain;
+}
+icon-tidal {
+    background: url('https://api.iconify.design/cib:tidal.svg') no-repeat center center / contain;
+}
+div.social-row{
+    height: 20%;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 991.98px) {
+.max-width1 {
+    max-width: 500px;
+    margin: 0px auto;
+}
+    
+    
+}
+
+div.social,div.social2,div.social1{
+    max-width: 20%;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    
+}
+
+.social-text {
+    font-size: 1rem;
+}
+
+.social1 {
+    font-size: 3rem;
+}
+.social2 {
+    font-size: 2rem;
+}
+
+.social {
+    font-size: 5rem;
+}
+
+a {
+    
+    color: #62929E;
+}
+a:hover {
+    color: #546A7B;
+}
+
