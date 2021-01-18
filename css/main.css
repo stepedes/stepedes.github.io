@@ -1,7 +1,7 @@
 body {
     background-color: #393D3F;
     color: #FDFDFF;
-    font-family: Inter,sans-serif;
+    font-family: Inter, sans-serif;
     min-height: 110vh;
 }
 
@@ -26,29 +26,33 @@ iframe.ytb {
 icon-pandora {
     background: url('https://api.iconify.design/simple-icons:pandora.svg') no-repeat center center / contain;
 }
+
 icon-tidal {
     background: url('https://api.iconify.design/cib:tidal.svg') no-repeat center center / contain;
 }
-div.social-row{
+
+div.social-row {
     height: 20%;
     margin-bottom: 1rem;
 }
 
 @media (min-width: 991.98px) {
-.max-width1 {
-    max-width: 500px;
-    margin: 0px auto;
-}
-    
-    
+    .max-width1 {
+        max-width: 500px;
+        margin: 0px auto;
+    }
+
+
 }
 
-div.social,div.social2,div.social1{
+div.social,
+div.social2,
+div.social1 {
     max-width: 20%;
     padding: 0px;
     margin: 0px auto;
     text-align: center;
-    
+
 }
 
 .social-text {
@@ -58,6 +62,7 @@ div.social,div.social2,div.social1{
 .social1 {
     font-size: 3rem;
 }
+
 .social2 {
     font-size: 2rem;
 }
@@ -67,10 +72,29 @@ div.social,div.social2,div.social1{
 }
 
 a {
-    
+
     color: #62929E;
 }
+
 a:hover {
     color: #546A7B;
 }
 
+
+.about-col {
+    max-width: 50vh;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.about-facepic {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.about-name {
+    text-align: center;
+    font-size: 4vh;
+}
